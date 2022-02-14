@@ -1,0 +1,42 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+label{
+    font-size: large;
+    text-transform: uppercase;
+}
+input{
+    border-radius: 12px;
+    background-color: rgb(218, 213, 213);
+    color: black;
+    border-color: transparent;
+}
+input:hover{
+    border-color: blue;
+    color: gray;
+}
+input:active{
+    border-color: red;
+    text-transform: uppercase;
+    background-color: rgb(82, 80, 80);
+    color: honeydew;
+    font-size: 20px;
+}
+button{
+    border-radius: 12px;
+    background-color: rgb(28, 160, 28);
+    width: 100px;
+    border-color: transparent;
+}
+button:hover{
+    background-color: green;
+    
+}
+button:active{
+    background-color: rgb(3, 87, 3);
+
+}
+#newadd{
+    border-color: tomato;
+}
